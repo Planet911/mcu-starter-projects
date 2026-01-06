@@ -15,7 +15,7 @@ else
   MKDIR = mkdir
 endif
 
-CFLAGS += -W -Wall --std=gnu11 -g -O0
+CFLAGS += -W -Wall --std=gnu11 -g -O1
 CFLAGS += -fno-diagnostics-show-caret
 CFLAGS += -fdata-sections -ffunction-sections
 CFLAGS += -funsigned-char -funsigned-bitfields
